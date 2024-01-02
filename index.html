@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zain Aziz Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+    
+        <!--Navigation-->
+        <nav>
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#github">GitHub</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <!--Header-->
+        <header id="home">
+            <div class="header-content">
+                <h1 class="header-title">ZAIN AZIZ</h1>
+                <h2 class="header-subtitle">professional web developer</h2>
+                <h3 class="header-slogan">let's innovate together!</h3>
+                <div class="header-button-container">
+                    <a href="https://github.com/zainy2401" target="_blank" class="header-button">GitHub</a> 
+                    <a href="#contact" class="header-button">Contact</a> 
+                </div>
+            </div>
+            <div class="header-video-container">
+                <video class="header-video" src="images/coding.mp4" type="video/mp4" autoplay muted loop></video>
+            </div>
+        </header>
+
+        <!--GitHub Section-->
+        <div class="row" id="github">
+            <div class="column" style="background-color: gray;">
+                <img src="images/github.jpg" alt="GitHub logo">
+            </div>
+            <div class="column">
+                <h2 class="title">GitHub</h2>
+                <p class="paragraph">
+                    View and download my awesome projects from my GitHub profile. You will find several projects that showcase my ability to solve different problems with unique solutions.
+                </p>
+                <a class="external-link" href="https://github.com/zainy2401" target="_blank">My GitHub</a>
+            </div>
+        </div>
+
+        <!--About Section-->
+        <div class="row reverse-when-small" id="about">
+            <div class="column">
+                <h2 class="title">About Me</h2>
+                <p class="paragraph">
+                    Hi my name is Zain! I love everything about technology as well as learning about it, I also love cars! <br><br>
+                    I am a recent graduate of <a href="https://www.pitman-training.com/" target="_blank">Pitman Training's</a> Advanced Web and Software Development Diploma courses and so I am skilled in various Web and Software development skills including HTML, CSS, JavaScript, C# and much more.<br><br>
+                    <a href="#contact">Get in touch with me</a> today and let's transform your ideas into reality!.
+                </p>
+            </div>
+            <div class="column">
+                <img src="images/about.jpg" alt="GitHub logo">
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="row" id="contact">
+            <div class="column">
+                <img src="images/contact.jpg" alt="GitHub logo">
+            </div>
+            <div class="column">
+                <h2 class="title">Contact Me</h2>
+                <p class="paragraph">
+                    Want to collaborate? Get in contact with me with the form below and I will get back to you the same day! <br>
+                </p>
+                <form action="https://formspree.io/f/xbjnjooj" method="POST">
+                    <label>Name:</label>
+                    <input id="name" name="name" type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                    <input id="email" name="email" type="text" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                    <input id="message" name="message" type="text" placeholder="Please enter your message here">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <p>Designed by Zain-Ul-Abidin Aziz</p>
+        </footer>
+
+    </body>
+
+</html>
