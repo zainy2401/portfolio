@@ -33,7 +33,7 @@ function closeContact(){
 }
 
 document.addEventListener("click", function(event){
-  if (event.target.matches(".contact-close") || !event.target.closest(".contact-open") && !event.target.closest(".nav-link") && !event.target.closest(".header-button") && !event.target.closest(".astyle")
+  if (event.target.matches(".contact-close") || !event.target.closest(".contact-open") && !event.target.closest(".nav-link") && !event.target.closest(".header-button") && !event.target.closest(".astyle") && !event.target.closest(".contact-card")
   ){
       closeContact()
   }
